@@ -1,7 +1,13 @@
 import { Link } from 'react-router-dom'
 import css from './GameCard.module.css'
 
-const GameCard = ({ gameCarddata }) => {
+type GameCardProps = {
+  title: string
+  imageUrl: string
+  link: string
+}
+
+const GameCard = ({ gameCarddata }: { gameCarddata: GameCardProps }) => {
   return (
     <>
       <div className="figure-container">
