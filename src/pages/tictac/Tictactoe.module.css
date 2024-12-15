@@ -97,3 +97,61 @@
   align-items: flex-start;
   margin-bottom: 5px;
 }
+
+@media screen and (max-width: 1200px) {
+  .tictactoe-section {
+    flex-direction: column-reverse;
+    justify-content: center;
+  }
+}
+
+@media screen and (max-width: 600px) {
+  .header-section {
+    flex-direction: column;
+    margin-bottom: 20px;
+  }
+
+  .status {
+    font-size: 25px;
+    font-weight: bold;
+  }
+
+  .status-section {
+    width: 380px;
+    height: auto;
+    max-width: 600px;
+    max-height: 600px;
+    min-width: 320px;
+    min-height: unset;
+    padding: 5px;
+    margin-bottom: 20px;
+  }
+
+  .history-section {
+    flex-wrap: unset;
+    overflow-x: scroll;
+  }
+
+  .board {
+    max-width: 600px;
+    max-height: 600px;
+    min-width: 320px;
+    min-height: 320px;
+    gap: 4px;
+  }
+
+  .square {
+    width: 100px;
+    height: 100px;
+    font-size: 80px;
+  }
+}
+
+@media screen and (max-width: 400px) {
+  .status-section {
+    width: 320px;
+  }
+  .history-section {
+    width: 320px;
+  }
+}
