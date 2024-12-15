@@ -88,7 +88,7 @@ const TicTacToe: React.FC = () => {
         </div>
         <button
           className="btn"
-          onClick={handleReset}>
+          onClick={() => handleReset()}>
           Restart Game
         </button>
       </div>
