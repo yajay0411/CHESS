@@ -38,3 +38,9 @@
     color: #fff;
   }
 }
+
+@media screen and (max-width: 1200px) {
+  .figure img {
+    width: 350px;
+  }
+}

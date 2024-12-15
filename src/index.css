@@ -88,3 +88,15 @@ body {
   min-width: 120px;
   margin-left: 10px;
 }
+
+@media screen and (max-width: 1000px) {
+  .heading {
+    font-size: 30px;
+    color: var(--text);
+    font-weight: 600;
+  }
+
+  .content-wrapper {
+    flex-direction: column;
+  }
+}
