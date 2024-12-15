@@ -1,12 +1,12 @@
 {
-  "name": "chess_com",
+  "name": "games_com",
   "private": true,
   "version": "0.0.0",
   "type": "module",
   "scripts": {
     "dev": "vite",
     "build": "tsc -b && vite build",
-    "lint:check": "eslint",
+    "lint:check": "eslint .",
     "lint:fix": "eslint --fix",
     "format:check": "prettier . --check",
     "format:fix": "prettier . --write",
@@ -14,8 +14,10 @@
     "preview": "vite preview"
   },
   "dependencies": {
+    "games_com": "file:",
     "react": "^18.3.1",
-    "react-dom": "^18.3.1"
+    "react-dom": "^18.3.1",
+    "react-router-dom": "^7.0.2"
   },
   "devDependencies": {
     "@commitlint/cli": "^19.6.0",
