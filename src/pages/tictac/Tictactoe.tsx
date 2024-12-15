@@ -63,6 +63,8 @@ const TicTacToe: React.FC = () => {
   const handleReset = () => {
     setSquares(Array(9).fill(null))
     setHistory([])
+    setDraw(false)
+    setWinner(null)
     setIsXNext(true)
   }
 
