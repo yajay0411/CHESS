@@ -13,7 +13,7 @@ function App() {
           path="/chess"
           element={<ChessDisplay />}></Route>
         <Route
-          path="/tictac"
+          path="/tictactoe"
           element={<TictactoeDisplay />}></Route>
       </Routes>
     </div>

@@ -7,7 +7,7 @@ const games = [
   },
   {
     title: 'Tic-Tac-Toe',
-    link: '/tictac',
+    link: '/tictactoe',
     imageUrl:
       'https://images.unsplash.com/photo-1668901382969-8c73e450a1f5?w=500&h=500&auto=format&fit=crop&q=60&ixlib=rb-4.0.3&ixid=M3wxMjA3fDB8MHxzZWFyY2h8MTB8fHRpYyUyMHRhYyUyMHRvZXxlbnwwfHwwfHx8MA%3D%3D'
   }

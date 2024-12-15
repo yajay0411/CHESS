@@ -1,6 +1,7 @@
 import { Link } from 'react-router-dom'
 import css from './Tictactoe.module.css'
 import { ToggleMode } from '../../components'
+import TicTacToe from './Tictactoe'
 
 const TictactoeDisplay = () => {
   return (
@@ -19,6 +20,9 @@ const TictactoeDisplay = () => {
             </Link>
           </div>
         </div>
+      </div>
+      <div className="content-wrapper">
+        <TicTacToe />
       </div>
     </>
   )

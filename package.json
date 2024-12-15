@@ -10,6 +10,8 @@
     "lint:fix": "eslint --fix",
     "format:check": "prettier . --check",
     "format:fix": "prettier . --write",
+    "pre-git-push:check": "eslint . && prettier . --check",
+    "pre-git-push:fix": "eslint --fix && prettier . --write",
     "prepare": "husky",
     "preview": "vite preview"
   },

@@ -1,6 +1,6 @@
 import { dataGames } from '../../constants'
 import GameCard from '../game_card/GameCard'
-import ToggleMode from '../toggle_mode/toggleMode'
+import ToggleMode from '../toggle_mode/ToggleMode'
 import css from './AllGameListing.module.css'
 
 const AllGamesListing = () => {
